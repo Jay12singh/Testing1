@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <!-- <title>Document</title>
+    <link rel="stylesheet" href="jay.css"> -->
+    <title>Jay fitness</title>
+
+</head>
+<link rel="stylesheet" href="imgs/gym1.webp">
+<style>
+    body {
+        margin: 0px;
+        padding: 0px;
+        background: url("imgs/gym1.webp");
+        color: white;
+
+    }
+
+    .left {
+        display: inline-block;
+        position: absolute;
+        left: 34px;
+        top: 12px;
+        /* border: 1px solid red; */
+
+
+        text-align: center;
+
+    }
+
+    .mid {
+        display: block;
+        width: 40%;
+        margin: 30px auto;
+        /* border: 1px solid greenyellow; */
+
+
+    }
+
+    .mid ul {
+        list-style: none;
+    }
+
+    .navbar li {
+
+        display: inline-block;
+        font-size: 18px;
+
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 22px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a:active {
+        text-decoration: underline;
+        color: grey;
+    }
+
+    .left img {
+        width: 70px;
+
+        filter: invert(100%);
+    }
+
+    .left div {
+        text-align: center;
+        line-height: 12px;
+    }
+
+    .right {
+        display: inline-block;
+        position: absolute;
+        right: 34px;
+        top: 25px;
+        /* border: 1px solid burlywood; */
+
+
+    }
+
+    .btn {
+        margin: 0px 9px;
+        color: white;
+        background-color: black;
+        padding: 3px 4px;
+        border: 2px solid grey;
+        border-radius: 5px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        color: hotpink;
+    }
+
+    .container {
+        font-size: 30px;
+        border: 2px solid white;
+        width: 33%;
+        margin: 60px 100px;
+        padding: 33px 67px;
+        border-radius: 10px;
+    }
+
+    .container h4 {
+        margin: 12px 20px;
+        text-align: center;
+    }
+
+    .form-group input {
+        display: block;
+        width: 200px;
+        padding: 5px 20px;
+        color: white;
+        margin: 12px 90px;
+        text-align: center;
+        background-color: black;
+        border-radius: 4px;
+    }
+
+    .container button {
+        display: block;
+        width: 30%;
+        margin: 12px 150px;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="imgs/dumble.jpg" alt="">
+            <div>Jay Fitness</div>
+
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Fitness Calculter</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Contact us</button>
+            <button class="btn">Email us</button>
+
+        </div>
+    </header>
+    <div class="container">
+        <h4>Join The Best Gym of Lucknow</h4>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text name" name="" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text name" name="" placeholder="Enter your Gender">
+            </div>
+
+            <div class="form-group">
+                <input type="text name" name="" placeholder="Enter your Locality">
+            </div>
+
+            <button class="btn">Submit</button>
+
+
+
+
+        </form>
+    </div>
+
+</body>
+
+</html>
